@@ -39,7 +39,7 @@ export class GildedRose {
       return;
     }
     if (item.name.includes('Conjured')) {
-      this.updateDefaultQuality(item, 1);
+      this.updateDefaultQuality(item, 2);
       return;
     } else {
       this.updateDefaultQuality(item, 1);
