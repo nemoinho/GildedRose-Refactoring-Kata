@@ -31,6 +31,7 @@ export class GildedRose {
     } else {
     }
     this.bar(item);
+    return;
   }
 
   private bar(item: Item) {
