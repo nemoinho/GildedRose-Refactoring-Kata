@@ -28,10 +28,12 @@ export class GildedRose {
 
   private foo(item: Item) {
     if (item.name != 'Aged Brie') {
+      this.bar(item);
+      return;
     } else {
+      this.bar(item);
+      return;
     }
-    this.bar(item);
-    return;
   }
 
   private bar(item: Item) {
