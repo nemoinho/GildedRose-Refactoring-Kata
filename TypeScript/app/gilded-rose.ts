@@ -31,6 +31,9 @@ export class GildedRose {
       this.updateQualityOfBrie(item);
       return;
     }
+    if (item.name == 'Backstage passes to a TAFKAL80ETC concert' as string) {
+    } else {
+    }
     this.everythingElse(item);
     return;
   }
