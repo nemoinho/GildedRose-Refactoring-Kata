@@ -32,7 +32,7 @@ export class GildedRose {
       return;
     }
     if (item.name == 'Backstage passes to a TAFKAL80ETC concert' as string) {
-      if (item.name != 'Backstage passes to a TAFKAL80ETC concert') {
+      if (false) {
       } else {
         if (item.quality < 50) {
           item.quality = item.quality + 1
