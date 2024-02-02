@@ -27,6 +27,9 @@ export class GildedRose {
   }
 
   private foo(item: Item) {
+    if (item.name != 'Aged Brie') {
+    } else {
+    }
     this.bar(item);
   }
 
