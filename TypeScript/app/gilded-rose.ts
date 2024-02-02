@@ -37,32 +37,23 @@ export class GildedRose {
     }
     if (item.name == 'Sulfuras, Hand of Ragnaros' as string) {
       if (item.quality > 0) {
-        if (false) {
-        }
+
       }
-      if (false) {
-      }
+
       if (item.sellIn < 0) {
         if (item.quality > 0) {
-          if (false) {
-          }
+
         }
       }
       return;
     } else {
       if (item.quality > 0) {
-        if (true) {
-          item.quality = item.quality - 1
-        }
+        item.quality = item.quality - 1
       }
-      if (true) {
-        item.sellIn = item.sellIn - 1;
-      }
+      item.sellIn = item.sellIn - 1;
       if (item.sellIn < 0) {
         if (item.quality > 0) {
-          if (true) {
-            item.quality = item.quality - 1
-          }
+          item.quality = item.quality - 1
         }
       }
       return;
