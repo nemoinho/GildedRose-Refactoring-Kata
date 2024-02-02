@@ -28,12 +28,9 @@ export class GildedRose {
 
   private foo(item: Item) {
     if (item.name == 'Aged Brie' as string) {
-      if (false) {
-      } else {
-        if (item.quality < 50) {
-          item.quality = item.quality + 1
-          if (item.name == 'Backstage passes to a TAFKAL80ETC concert') {
-          }
+      if (item.quality < 50) {
+        item.quality = item.quality + 1
+        if (item.name == 'Backstage passes to a TAFKAL80ETC concert') {
         }
       }
       if (item.name != 'Sulfuras, Hand of Ragnaros') {
