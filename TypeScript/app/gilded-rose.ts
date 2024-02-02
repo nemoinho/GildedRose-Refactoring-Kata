@@ -39,22 +39,22 @@ export class GildedRose {
       return;
     }
     if (item.name.includes('Conjured')) {
-      this.updateDefaultQuality(item);
+      this.updateDefaultQuality(item, 1);
       return;
     } else {
-      this.updateDefaultQuality(item);
+      this.updateDefaultQuality(item, 1);
       return;
     }
   }
 
-  private updateDefaultQuality(item: Item) {
+  private updateDefaultQuality(item: Item, decrease: number) {
     if (item.quality > 0) {
-      item.quality = item.quality - 1
+      item.quality = item.quality - decrease
     }
     item.sellIn = item.sellIn - 1;
     if (item.sellIn < 0) {
       if (item.quality > 0) {
-        item.quality = item.quality - 1
+        item.quality = item.quality - decrease
       }
     }
   }
