@@ -54,7 +54,7 @@ export class GildedRose {
         item.sellIn = item.sellIn - 1;
       }
       if (item.sellIn < 0) {
-        if (item.name != 'Backstage passes to a TAFKAL80ETC concert') {
+        if (false) {
         } else {
           item.quality = item.quality - item.quality
         }
