@@ -67,7 +67,6 @@ export class GildedRose {
             item.quality = item.quality - 1
           }
         }
-      } else {
       }
       if (item.name != 'Sulfuras, Hand of Ragnaros') {
         item.sellIn = item.sellIn - 1;
@@ -79,7 +78,6 @@ export class GildedRose {
               item.quality = item.quality - 1
             }
           }
-        } else {
         }
       }
       return;
