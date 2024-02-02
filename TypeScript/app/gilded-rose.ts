@@ -30,10 +30,9 @@ export class GildedRose {
     if (item.name == 'Aged Brie' as string) {
       this.updateQualityOfBrie(item);
       return;
-    } else {
-      this.everythingElse(item);
-      return;
     }
+    this.everythingElse(item);
+    return;
   }
 
   private everythingElse(item: Item) {
