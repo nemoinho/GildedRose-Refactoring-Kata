@@ -20,13 +20,13 @@ export class GildedRose {
   updateQuality() {
     for (let i = 0; i < this.items.length; i++) {
       const item = this.items[i];
-      this.foo(item);
+      this.updateQualityOfItem(item);
     }
 
     return this.items;
   }
 
-  private foo(item: Item) {
+  private updateQualityOfItem(item: Item) {
     if (item.name == 'Aged Brie' as string) {
       this.updateQualityOfBrie(item);
       return;
