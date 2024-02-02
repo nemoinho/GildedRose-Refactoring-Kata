@@ -32,10 +32,12 @@ export class GildedRose {
       return;
     }
     if (item.name == 'Backstage passes to a TAFKAL80ETC concert' as string) {
+      this.everythingElse(item);
+      return;
     } else {
+      this.everythingElse(item);
+      return;
     }
-    this.everythingElse(item);
-    return;
   }
 
   private everythingElse(item: Item) {
