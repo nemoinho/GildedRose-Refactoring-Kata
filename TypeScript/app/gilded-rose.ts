@@ -36,10 +36,12 @@ export class GildedRose {
       return;
     }
     if (item.name == 'Sulfuras, Hand of Ragnaros' as string) {
+      this.updateQualityOfEverythingElse(item);
+      return;
     } else {
+      this.updateQualityOfEverythingElse(item);
+      return;
     }
-    this.updateQualityOfEverythingElse(item);
-    return;
   }
 
   private updateQualityOfEverythingElse(item: Item) {
