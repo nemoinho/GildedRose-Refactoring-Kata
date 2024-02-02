@@ -35,6 +35,9 @@ export class GildedRose {
       this.updateQualityOfBackstagePasses(item);
       return;
     }
+    if (item.name == 'Sulfuras, Hand of Ragnaros' as string) {
+    } else {
+    }
     this.updateQualityOfEverythingElse(item);
     return;
   }
