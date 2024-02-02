@@ -38,6 +38,11 @@ export class GildedRose {
     if (item.name == 'Sulfuras, Hand of Ragnaros' as string) {
       return;
     }
+    if (item.name.includes('Conjured')) {
+
+    } else {
+
+    }
     this.updateDefaultQuality(item);
     return;
   }
